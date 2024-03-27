@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20...3.29)
+cmake_minimum_required(VERSION 3.20...3.27)
 
 project(scapix-java-api CXX)
 
