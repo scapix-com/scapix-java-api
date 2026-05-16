@@ -18,11 +18,13 @@ Generated C++ headers for various Java platforms, used with [Scapix JNI](https:/
 - android-32
 - android-33
 - android-34
+- android-35
+- android-36
 - jdk-8
 - jdk-11
 - jdk-17
 - jdk-21
-- jdk-22
+- jdk-25
 
 [Documentation](https://www.scapix.com/jni)\
 [Example](https://github.com/scapix-com/example2)
