@@ -20,6 +20,7 @@ Generated C++ headers for various Java platforms, used with [Scapix JNI](https:/
 - android-34
 - android-35
 - android-36
+- android-37
 - jdk-8
 - jdk-11
 - jdk-17
