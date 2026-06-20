@@ -5,7 +5,7 @@ project(scapix-java-api CXX)
 if(ANDROID_PLATFORM)
   set(platform ${ANDROID_PLATFORM})
   if(NOT EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/platforms/${platform}")
-    set(platform android-36)
+    set(platform android-37)
   endif()
 else()
   find_package(Java COMPONENTS Development)
@@ -23,7 +23,7 @@ else()
   endif()
 endif()
 
-set(SCAPIX_JAVA_API "${platform}" CACHE STRING "Java platform - android-36, jdk-25, etc.")
+set(SCAPIX_JAVA_API "${platform}" CACHE STRING "Java platform - android-37, jdk-25, etc.")
 
 message(STATUS "SCAPIX_JAVA_API: ${SCAPIX_JAVA_API}")
 
